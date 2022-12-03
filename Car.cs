@@ -1,35 +1,29 @@
 using System;
 using System.Collections.Generic;
 
-public class Car                  //constructor class
+public class Car                  
 {
   public string MakeModel;
   public int Price;
   public int Miles;
+
+
+public Car(string makeModel, int price, int miles){
+  MakeModel = makeModel;
+  Price = price;
+  Miles = miles;
 }
 
 public class Program
 {
   public static void Main(){
-    Car volkswagen = new Car();  //make new instance of car
-    volkswagen.MakeModel = "1974 Volkswagen Thing";
-    volkswagen.Price = 1100;
-    volkswagen.Miles = 368792;
+    Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);  //make new instance of car
 
-    Car yugo = new Car();  //make new instance of car
-    yugo.MakeModel = "1980 Yugo Koral";
-    yugo.Price = 700;
-    yugo.Miles = 56000;
+    Car yugo = new Car("1980 Yugo Koral", 700, 56000);  //make new instance of car
 
-    Car ford = new Car();  //make new instance of car
-    ford.MakeModel = "1988 Ford Country Squire";
-    ford.Price = 1400;
-    ford.Miles = 239001;
+    Car ford = new Car("1988 Ford Country Squire", 1400, 239001);  //make new instance of car
 
-    Car amc = new Car();  //make new instance of car
-    amc.MakeModel = "1976 AMC Pacer";
-    amc.Price = 400;
-    amc.Miles = 198000;
+    Car amc = new Car("1976 AMC Pacer", 400, 198000);  //make new instance of car
 
     List<Car> CarList = new List<Car>();
     CarList.Add(volkswagen);
@@ -47,4 +41,5 @@ public class Program
   //     Console.WriteLine(i);
   //   }
   // }
+}
 }
