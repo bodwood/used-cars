@@ -17,7 +17,7 @@ public class Car
 
   public bool WorthBuying(int maxPrice)
   {
-    return (Price <= macPrice);
+    return (Price <= maxPrice);
   }
 }
 
@@ -30,13 +30,21 @@ public class Program
     Car ford = new Car("1988 Ford Country Squire", 1400, 239001);  //make new instance of car
     Car amc = new Car("1976 AMC Pacer", 400, 198000);  //make new instance of car
 
-    List<Car> CarList = new List<Car>();
-    CarList.Add(volkswagen);
-    CarList.Add(yugo);
-    CarList.Add(ford);
-    CarList.Add(amc);
+    List<Car> CarList = new List<Car>() {volkswagen, yugo, ford, amc};
 
-    foreach (Car i in CarList)
+    Console.WriteLine("Enter a max price: ");
+    string stringMaxPrice = Console.ReadLine();
+    int maxPrice = int.Parse(stringMaxPrice);
+
+    List<Car> carInPriceRange = new List<Car>(0);
+
+    foreach(Car i in CarList){
+      if(i.WorthBuying(maxPrice)){
+        carInPriceRange.Add(i);
+      }
+    }
+
+    foreach (Car i in carInPriceRange)
     {
       Console.WriteLine(i.MakeModel + ", " + i.Price + ", " + i.Miles);
     }
