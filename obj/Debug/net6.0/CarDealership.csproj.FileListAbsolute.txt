@@ -1,0 +1,15 @@
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\bin\Debug\net6.0\CarDealership.exe
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\bin\Debug\net6.0\CarDealership.deps.json
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\bin\Debug\net6.0\CarDealership.runtimeconfig.json
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\bin\Debug\net6.0\CarDealership.dll
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\bin\Debug\net6.0\CarDealership.pdb
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.csproj.AssemblyReference.cache
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.AssemblyInfoInputs.cache
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.AssemblyInfo.cs
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.dll
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\refint\CarDealership.dll
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.pdb
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\CarDealership.genruntimeconfig.cache
+C:\Users\bodie\onedrive\desktop\epicodus-projects\car-dealership\obj\Debug\net6.0\ref\CarDealership.dll

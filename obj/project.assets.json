@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car\\Car.csproj",
-      "projectName": "Car",
-      "projectPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car\\Car.csproj",
+      "projectUniqueName": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car-dealership\\CarDealership.csproj",
+      "projectName": "CarDealership",
+      "projectPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car-dealership\\CarDealership.csproj",
       "packagesPath": "C:\\Users\\bodie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car\\obj\\",
+      "outputPath": "C:\\Users\\bodie\\onedrive\\desktop\\epicodus-projects\\car-dealership\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bodie\\AppData\\Roaming\\NuGet\\NuGet.Config"
